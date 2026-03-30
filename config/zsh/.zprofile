@@ -21,5 +21,3 @@ export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
 export GTK_RC_FILES="$XDG_CONFIG_HOME/gtk-1.0/gtkrc"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc":"$XDG_CONFIG_HOME/gtk-2.0/gtkrc.mine"
 export BITWARDEN_SSH_AUTH_SOCK="$XDG_RUNTIME_DIR"
-
-eval "$(/opt/homebrew/bin/brew shellenv zsh)"

@@ -18,6 +18,12 @@ SAVEHIST=1000000
 HISTFILE="$XDG_STATE_HOME/zsh/history"
 HISTCONTROL=ignoreboth
 
+# Disable vi binds
+bindkey -e
+
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+
 # Fzf
 source <(fzf --zsh)
 
