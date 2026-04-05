@@ -3,6 +3,7 @@ tap "anomalyco/tap"
 
 # CLI
 brew "bat"
+brew "btop"
 brew "eza"
 brew "fd"
 brew "fzf"
