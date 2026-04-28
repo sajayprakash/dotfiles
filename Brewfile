@@ -28,7 +28,7 @@ cask "font-jetbrains-mono-nerd-font"
 # GUI
 cask "anki"
 cask "calibre"
-cask "firefox"
+cask "helium-browser"
 cask "ghostty"
 cask "iina"
 cask "linearmouse"
