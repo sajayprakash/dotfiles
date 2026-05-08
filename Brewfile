@@ -27,9 +27,10 @@ cask "font-jetbrains-mono-nerd-font"
 
 # GUI
 cask "anki"
-cask "brave-browser"
 cask "calibre"
+cask "firefox"
 cask "ghostty"
+cask "google-chrome"
 cask "iina"
 cask "linearmouse"
 cask "visual-studio-code"
