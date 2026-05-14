@@ -1,5 +1,5 @@
 {
-  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.4",
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.11.1",
   "schemes" : [
     {
       "buttons" : {
@@ -13,6 +13,27 @@
           "serialNumber" : "C0C7B520A8E221BB",
           "vendorID" : "0x46d"
         }
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : true
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xf58a",
+          "productName" : "VXE NordicMouse 1K Dongle",
+          "vendorID" : "0x3554"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
       },
       "scrolling" : {
         "reverse" : {
