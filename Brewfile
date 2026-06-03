@@ -24,6 +24,7 @@ brew "anomalyco/tap/opencode"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
+cask "font-maple-mono-nf"
 
 # GUI
 cask "anki"
