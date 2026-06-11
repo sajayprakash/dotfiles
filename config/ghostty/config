@@ -3,3 +3,4 @@ font-family = Maple Mono NF
 font-size = 16
 window-padding-x = 14
 window-padding-y = 14
+auto-update = off
