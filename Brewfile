@@ -29,7 +29,7 @@ cask "font-maple-mono-nf"
 # GUI
 cask "anki"
 cask "calibre"
+cask "firefox"
 cask "ghostty"
-cask "google-chrome"
 cask "iina"
 cask "linearmouse"
