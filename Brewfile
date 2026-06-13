@@ -1,5 +1,5 @@
 # Taps
-tap "anomalyco/tap"
+tap "anomalyco/tap", trusted: true
 
 # CLI
 brew "bat"
