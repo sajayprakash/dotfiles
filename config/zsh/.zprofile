@@ -1,11 +1,14 @@
+# Set default editor
 export EDITOR="nvim"
 
+# Set XDG dirs
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_RUNTIME_DIR="/run/user/$UID"
 
+# Set dirs
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
 export FFMPEG_DATADIR="$XDG_CONFIG_HOME/ffmpeg"
@@ -22,8 +25,11 @@ export GTK_RC_FILES="$XDG_CONFIG_HOME/gtk-1.0/gtkrc"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc":"$XDG_CONFIG_HOME/gtk-2.0/gtkrc.mine"
 export BITWARDEN_SSH_AUTH_SOCK="$XDG_RUNTIME_DIR"
 
-export MANPAGER="bat -plman"
+# Color man pages with bat
+export MANROFFOPT="-c"
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
+# Set fzf theme
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:#1E1E2E,spinner:#F5E0DC,hl:#F38BA8 \
 --color=fg:#CDD6F4,header:#F38BA8,info:#CBA6F7,pointer:#F5E0DC \
