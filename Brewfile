@@ -5,6 +5,7 @@ tap "anomalyco/tap", trusted: true
 brew "bat"
 brew "btop"
 brew "eza"
+brew "fastfetch"
 brew "fd"
 brew "fzf"
 brew "gh"
