@@ -9,6 +9,9 @@
 zmodload zsh/complist
 autoload -U colors && colors
 
+# Case insensitive completion
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+
 zstyle ':completion:*' cache-path "$XDG_CACHE_HOME/zsh/zcompcache"
 autoload -U compinit && compinit -d "$XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION"
 
