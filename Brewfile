@@ -29,9 +29,8 @@ cask "font-maple-mono-nf"
 
 # GUI
 cask "anki"
+cask "brave-browser"
 cask "calibre"
-# cask "discord"
-cask "firefox"
 cask "ghostty"
 cask "iina"
 cask "linearmouse"
