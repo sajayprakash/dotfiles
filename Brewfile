@@ -1,6 +1,3 @@
-# Taps
-tap "anomalyco/tap", trusted: true
-
 # CLI
 brew "bat"
 brew "btop"
@@ -20,9 +17,6 @@ brew "starship"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
-# AI
-brew "anomalyco/tap/opencode"
-
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
 cask "font-maple-mono-nf"
@@ -33,4 +27,4 @@ cask "calibre"
 cask "firefox"
 cask "ghostty"
 cask "iina"
-cask "linearmouse"
+cask "vorssaint"
