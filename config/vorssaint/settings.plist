@@ -318,7 +318,7 @@
 		<key>featureAvailable.quickLauncher</key>
 		<false/>
 		<key>featureAvailable.quickToggles</key>
-		<false/>
+		<true/>
 		<key>featureAvailable.quitApps</key>
 		<false/>
 		<key>featureAvailable.quitWindowProtection</key>
@@ -456,7 +456,7 @@
 		<key>linearScrollExceptions</key>
 		<array/>
 		<key>linearScrollLines</key>
-		<integer>5</integer>
+		<integer>6</integer>
 		<key>liquidGlassEnabled</key>
 		<false/>
 		<key>mediaGIFEnd</key>
@@ -674,7 +674,7 @@
 		<key>monitorGraphScale</key>
 		<true/>
 		<key>monitorIntervalSeconds</key>
-		<integer>5</integer>
+		<integer>2</integer>
 		<key>monitorMemoryMetric</key>
 		<string>used</string>
 		<key>monitorNetAddresses</key>
@@ -1397,7 +1397,7 @@
 		<key>screenshotWatermarkPresets</key>
 		<string>[]</string>
 		<key>screenshotWatermarkStyle</key>
-		<string>{"opacity":0.4,"anchor":"bottomTrailing","text":"","size":0.3,"color":"white","kind":"none","rotation":0}</string>
+		<string>{"text":"","opacity":0.4,"kind":"none","anchor":"bottomTrailing","rotation":0,"size":0.3,"color":"white"}</string>
 		<key>scrollHorizontalEnabled</key>
 		<false/>
 		<key>scrollHorizontalModifier</key>
@@ -1539,7 +1539,7 @@
 		<key>uninstallerCommandBarEnabled</key>
 		<true/>
 		<key>uninstallerWatchesTrash</key>
-		<false/>
+		<true/>
 		<key>updateHighlightsSeenVersion</key>
 		<string>3.4.0</string>
 		<key>urlCleanerCustomParameters</key>
@@ -1557,7 +1557,7 @@
 		<key>whatsAppDownloadsAutomaticEnabled</key>
 		<true/>
 		<key>whatsAppDownloadsCategories</key>
-		<string>image,video,audio</string>
+		<string>image,video,audio,document,archive,other</string>
 		<key>whatsAppDownloadsEnabled</key>
 		<true/>
 		<key>whatsAppDownloadsIncludeExisting</key>
