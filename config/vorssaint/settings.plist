@@ -210,7 +210,7 @@
 		<key>featureAvailable.audioPriority</key>
 		<false/>
 		<key>featureAvailable.autoQuit</key>
-		<false/>
+		<true/>
 		<key>featureAvailable.bluetoothSleep</key>
 		<false/>
 		<key>featureAvailable.brightness</key>
@@ -240,7 +240,7 @@
 		<key>featureAvailable.fanControl</key>
 		<false/>
 		<key>featureAvailable.finderCutPaste</key>
-		<false/>
+		<true/>
 		<key>featureAvailable.finderRename</key>
 		<false/>
 		<key>featureAvailable.focusFollowsMouse</key>
@@ -1397,7 +1397,7 @@
 		<key>screenshotWatermarkPresets</key>
 		<string>[]</string>
 		<key>screenshotWatermarkStyle</key>
-		<string>{"opacity":0.4,"size":0.3,"color":"white","anchor":"bottomTrailing","kind":"none","rotation":0,"text":""}</string>
+		<string>{"opacity":0.4,"anchor":"bottomTrailing","text":"","size":0.3,"color":"white","kind":"none","rotation":0}</string>
 		<key>scrollHorizontalEnabled</key>
 		<false/>
 		<key>scrollHorizontalModifier</key>
