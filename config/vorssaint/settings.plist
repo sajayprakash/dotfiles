@@ -314,11 +314,11 @@
 		<key>featureAvailable.pastePlain</key>
 		<false/>
 		<key>featureAvailable.portManager</key>
-		<true/>
+		<false/>
 		<key>featureAvailable.quickLauncher</key>
 		<false/>
 		<key>featureAvailable.quickToggles</key>
-		<true/>
+		<false/>
 		<key>featureAvailable.quitApps</key>
 		<false/>
 		<key>featureAvailable.quitWindowProtection</key>
@@ -628,13 +628,13 @@
 		<key>monitorAlertBatteryPercent</key>
 		<integer>15</integer>
 		<key>monitorAlertBatteryTemperature</key>
-		<true/>
+		<false/>
 		<key>monitorAlertBatteryTemperatureThreshold</key>
 		<integer>40</integer>
 		<key>monitorAlertCPU</key>
 		<false/>
 		<key>monitorAlertCPUTemperature</key>
-		<true/>
+		<false/>
 		<key>monitorAlertCPUTemperatureThreshold</key>
 		<integer>90</integer>
 		<key>monitorAlertCPUThreshold</key>
@@ -642,7 +642,7 @@
 		<key>monitorAlertCooldownMinutes</key>
 		<integer>15</integer>
 		<key>monitorAlertDisk</key>
-		<true/>
+		<false/>
 		<key>monitorAlertDiskFreePercent</key>
 		<integer>10</integer>
 		<key>monitorAlertMemory</key>
@@ -1397,7 +1397,7 @@
 		<key>screenshotWatermarkPresets</key>
 		<string>[]</string>
 		<key>screenshotWatermarkStyle</key>
-		<string>{"text":"","opacity":0.4,"kind":"none","anchor":"bottomTrailing","rotation":0,"size":0.3,"color":"white"}</string>
+		<string>{"color":"white","rotation":0,"opacity":0.4,"kind":"none","anchor":"bottomTrailing","size":0.3,"text":""}</string>
 		<key>scrollHorizontalEnabled</key>
 		<false/>
 		<key>scrollHorizontalModifier</key>
@@ -1405,7 +1405,9 @@
 		<key>scrollInverterEnabled</key>
 		<true/>
 		<key>scrollInverterExceptions</key>
-		<array/>
+		<array>
+			<string>com.colliderli.iina</string>
+		</array>
 		<key>scrollInverterHorizontalEnabled</key>
 		<false/>
 		<key>scrollSpeedEnabled</key>
@@ -1428,8 +1430,6 @@
 		<true/>
 		<key>shelfEdgeDragEnabled</key>
 		<false/>
-		<key>shelfEnabled</key>
-		<true/>
 		<key>shelfRemoveAfterDrop</key>
 		<true/>
 		<key>shelfShakeToOpen</key>
@@ -1555,17 +1555,17 @@
 		<key>wallpaperFilter</key>
 		<string>all</string>
 		<key>whatsAppDownloadsAutomaticEnabled</key>
-		<true/>
+		<false/>
 		<key>whatsAppDownloadsCategories</key>
-		<string>image,video,audio,document,archive,other</string>
+		<string>image,video,audio</string>
 		<key>whatsAppDownloadsEnabled</key>
-		<true/>
+		<false/>
 		<key>whatsAppDownloadsIncludeExisting</key>
 		<false/>
 		<key>whatsAppDownloadsNotify</key>
 		<true/>
 		<key>whatsAppDownloadsRetentionDays</key>
-		<integer>30</integer>
+		<integer>7</integer>
 		<key>whatsAppOrganizerCategories</key>
 		<string>image,video,audio,document,archive,other</string>
 		<key>whatsAppOrganizerDelayMinutes</key>
